@@ -1,3 +1,5 @@
+
+import Image from "next/image";
 export default function About() {
   return (
     <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
@@ -11,8 +13,11 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-xl overflow-hidden shadow-sm">
-            <img src="/about.png" alt="About Us" 
-                 className="w-full h-full object-cover"/>
+          <Image 
+              src="/about.png" 
+              alt="Description"
+              width={500}  
+              height={300} />
           </div>
           <div className="space-y-8">
             <div>

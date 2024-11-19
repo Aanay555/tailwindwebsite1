@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
@@ -16,8 +17,11 @@ export default function Home() {
           <Link href="/services" 
                 className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
             <div className="aspect-video overflow-hidden">
-              <img src="/services.png" alt="Services" 
-                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"/>
+            <Image 
+              src="/services.png" 
+              alt="Description"
+              width={500}  
+            height={300} />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Services</h3>
@@ -28,8 +32,11 @@ export default function Home() {
           <Link href="/about" 
                 className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
             <div className="aspect-video overflow-hidden">
-              <img src="/aboutus.png" alt="About Us" 
-                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"/>
+            <Image 
+              src="/aboutus.png" 
+              alt="Description"
+              width={500}  
+              height={300} />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-800 mb-3">About Us</h3>
@@ -40,8 +47,11 @@ export default function Home() {
           <Link href="/contact" 
                 className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
             <div className="aspect-video overflow-hidden">
-              <img src="/contact.png" alt="Contact" 
-                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"/>
+            <Image 
+              src="/contact.png" 
+              alt="Description"
+              width={500}  
+              height={300} />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Contact Us</h3>

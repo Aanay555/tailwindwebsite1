@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Services() {
     return (
       <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
@@ -12,8 +14,11 @@ export default function Services() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
               <div className="aspect-video overflow-hidden">
-                <img src="/serv1.png" alt="Service 1" 
-                     className="w-full h-full object-cover"/>
+              <Image 
+              src="/serv1.png" 
+              alt="Description"
+              width={500}  
+              height={300} />
               </div>
               <div className="p-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">Service 1</h2>
@@ -26,8 +31,11 @@ export default function Services() {
   
             <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden">
               <div className="aspect-video overflow-hidden">
-                <img src="/serv2.png" alt="Service 2" 
-                     className="w-full h-full object-cover"/>
+              <Image 
+              src="/serv2.png" 
+              alt="Description"
+              width={500}  
+              height={300} />
               </div>
               <div className="p-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4">Service 2</h2>
