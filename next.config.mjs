@@ -6,6 +6,8 @@ const nextConfig = {
     },
     // Optional: Add any other Next.js configurations you might need
     reactStrictMode: true,
-  }
+  };
   
-  module.exports = nextConfig
+  export default nextConfig;
+
+ 
