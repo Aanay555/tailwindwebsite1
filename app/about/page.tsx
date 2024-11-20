@@ -23,7 +23,7 @@ export default function About() {
             <div>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Story</h2>
               <p className="text-gray-600 leading-relaxed">
-                Detailed description about your company's history, mission, and values.
+                Detailed description about your company history, mission, and values.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.
               </p>
@@ -31,7 +31,7 @@ export default function About() {
             <div>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Vision</h2>
               <p className="text-gray-600 leading-relaxed">
-                Information about your company's future goals and aspirations. Lorem ipsum
+                Information about your company future goals and aspirations. Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.
               </p>
